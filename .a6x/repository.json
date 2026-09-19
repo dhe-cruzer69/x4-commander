@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "repository": "x4-commander",
+  "fleet_id": 1,
+  "role": "orchestration",
+  "boundary": "independent-parent",
+  "interface": "HTTP/gRPC",
+  "modules": ["orchestration", "dispatch", "aggregation"],
+  "source_ownership": "repository-local",
+  "completion": {"level": 0, "state": "OBSERVED"},
+  "security": {"secrets_policy": "deny-commit", "cross_repo_source_imports": "forbidden"},
+  "evidence": {
+    "bootstrap": "VALIDATED",
+    "implementation": "UNKNOWN",
+    "tests": "UNKNOWN",
+    "security": "UNKNOWN",
+    "build": "UNKNOWN",
+    "ci": "UNKNOWN",
+    "deployment": "UNKNOWN",
+    "production": "UNKNOWN"
+  }
+}
